@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="calendarioA.js"></script>
+    <link rel="stylesheet" href="../calendario.css">
+    <title></title>
+</head>
+<body>
+<header>
+    <div id="displayMes">
+        <button id="botaovoltar">Voltar</button>
+        <button id="botaoproximo">Próximo</button>
+    </div>
+</header>
+
+<main class="container">
+<div id="diasSemana">
+    <div>Segunda - Feira</div>
+    <div>Terça - Feira</div>
+    <div>Quarta - Feira</div>
+    <div>Quinta - Feira</div>
+    <div>Sexta - Feira</div>
+</div>
+
+<div id="calendario"></div>
+<div id="modalNovoEvento">
+    <h2>Novo Evento</h2>
+    <input id="tituloCaixaEvento" placeholder="Nome do Evento">
+    <button id="botaoSalvar">Salvar</button>
+    <button id="botaoCancelar">Cancelar</button>
+</div>
+<div id="modalDeleteEvento">
+    <h2>Evento</h2>
+    <div id="textoevento"></div>
+    <br>
+    <button id="botaoDeletar">Deletar</button>
+    <button id="botaoFechar">Fechar</button>
+</div>
+</main>
+
+<footer>
+
+</footer>
+</body>
+</html>
